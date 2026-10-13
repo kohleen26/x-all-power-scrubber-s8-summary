@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#ffffff">
+  <meta name="description" content="Product knowledge base for the X-All Power Scrubber S8, organized as a Notion-style product database.">
+  <title>X-All Power Scrubber (Old Q1 Model Vs. S8 New Model Summary) | KBS</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="crumb">X-All Power Scrubber</div>
+  <header class="page-header">
+    <h1>X-All Power Scrubber (Old Q1 Model Vs. S8 New Model Summary)</h1>
+  </header>
+
+  <main>
+    <section class="database" aria-label="X-All Power Scrubber product database">
+      <div class="database-head">
+        <nav class="view-tabs" aria-label="Product database views">
+          <button class="view-tab active" data-page="catalog"><span class="tab-icon table-icon">▤</span>Product</button>
+          <button class="view-tab" data-page="accessories"><span class="tab-icon">▤</span>Tips/Accessories Gallery</button>
+          <button class="view-tab" data-page="device-gallery"><span class="tab-icon gallery-icon">▦</span>Device Gallery</button>
+          <button class="view-tab" data-page="controls"><span class="tab-icon">▤</span>Use & Controls</button>
+          <button class="view-tab comparison-tab" data-page="comparison"><span class="tab-icon">⇄</span>Old vs New</button>
+          <button class="view-tab" data-page="manuals"><span class="tab-icon">▤</span>Manuals & Resources</button>
+        </nav>
+        <div class="db-tools">
+          <label class="filter-control" title="Filter models">
+            <span aria-hidden="true">☰</span><select id="statusFilter" aria-label="Filter models"><option value="all">All models</option><option value="current">Current</option><option value="previous">Previous</option></select>
+          </label>
+          <button class="icon-button" id="sortButton" type="button" title="Sort by product name" aria-label="Sort by product name">↕</button>
+          <label class="search-box"><span aria-hidden="true">⌕</span><input id="siteSearch" type="search" placeholder="Search" aria-label="Search this view"></label>
+        </div>
+      </div>
+
+      <section class="view-panel active" id="view-catalog" data-title="Power Scrubbers">
+        <div class="table-scroll"><table class="product-table" id="productTable">
+          <thead><tr><th class="name-col">Aa&nbsp;&nbsp; Product</th><th><span class="property-icon status-icon">⊙</span>Status</th><th><span class="property-icon">☰</span>Internal SKU</th><th><span class="property-icon">↗</span>One-Pager</th><th><span class="property-icon">▣</span>Image</th><th><span class="property-icon">☰</span>Digital Display</th><th><span class="property-icon">☰</span>Power (W)</th><th><span class="property-icon">☰</span>Extension Handle</th><th><span class="property-icon">☰</span>Brush Heads</th><th><span class="property-icon">⊙</span>Barcode</th></tr></thead>
+          <tbody>
+            <tr class="product-row searchable" data-status="previous" data-name="Power Scrubber Q1 (Old Model)"><th><button class="row-title" data-page="comparison">Power Scrubber Q1 (Old Model)</button></th><td><span class="status-pill previous">Previous</span></td><td>MA-Q1PS4BRUSHES</td><td><button class="doc-pill" data-page="comparison">▧&nbsp; Q1 vs S8</button></td><td><button class="thumb-button" data-page="device-gallery" aria-label="Open Q1 and S8 product gallery"><img src="assets/q1-product-photo.webp" alt="Q1 scrubber product image"></button></td><td>No</td><td>10</td><td>Not compatible with S8 handle</td><td>Interchangeable with S8</td><td>850064546026</td></tr>
+            <tr class="product-row searchable" data-status="current" data-name="Power Scrubber S8 (New Model)"><th><button class="row-title" data-page="comparison">Power Scrubber S8 (New Model)</button></th><td><span class="status-pill current">Current</span></td><td>MA-S8PS4BRUSHES</td><td><button class="doc-pill" data-page="manuals">▧&nbsp; S8 materials</button></td><td><button class="thumb-button" data-page="device-gallery" aria-label="Open S8 product gallery"><img src="assets/s8-product-photo.webp" alt="S8 scrubber with extension handle and brush accessories"></button></td><td>Yes</td><td>20</td><td>Compatible · 28–43.3 in</td><td>Interchangeable with Q1</td><td>850064546026</td></tr>
+          </tbody>
+        </table></div>
+        <div class="table-foot"><span>＋&nbsp; New page</span><span>2 products</span></div>
+      </section>
+
+      <section class="view-panel" id="view-accessories" data-title="Tips/Accessories">
+        <div class="drive-callout"><span>Accessory images</span><a href="https://drive.google.com/file/d/13Mo1WvH5jqlmi0-RzEKD2yqFJ6BdV4ul/view?usp=sharing" target="_blank" rel="noopener noreferrer">Click here to view the high-resolution accessory images ↗</a></div>
+        <div class="content-grid accessory-grid">
+          <article class="simple-card searchable"><span class="type-label">BRUSH HEAD</span><h3>Standard brush head</h3><p>Compatible and interchangeable between Q1 and S8.</p></article>
+          <article class="simple-card searchable"><span class="type-label">BRUSH HEAD</span><h3>Cone-shaped brush</h3><p>Compatible and interchangeable between Q1 and S8.</p></article>
+          <article class="simple-card searchable"><span class="type-label">BRUSH HEAD</span><h3>Large brush head</h3><p>Compatible and interchangeable between Q1 and S8.</p></article>
+          <article class="simple-card searchable"><span class="type-label">BRUSH HEAD</span><h3>Steel brush head</h3><p>Compatible and interchangeable between Q1 and S8.</p></article>
+          <article class="simple-card searchable"><span class="type-label">BRUSH KIT</span><h3>Sponge head kit</h3><p>Compatible and interchangeable between Q1 and S8.</p></article>
+          <article class="simple-card searchable"><span class="type-label">EXTENSION HANDLE</span><h3>S8 extension bar</h3><p>S8 compatible. Adjustable from 28 to 43.3 in (handle only).</p><button class="inline-action" data-page="controls">Setup details →</button></article>
+        </div>
+      </section>
+
+      <section class="view-panel" id="view-device-gallery" data-title="Device Gallery">
+        <div class="drive-callout"><span>High-resolution product files</span><a href="https://drive.google.com/drive/folders/1RzB8iTEVJfB_STdhLT2dR-0eXhAa1u3B?usp=drive_link" target="_blank" rel="noopener noreferrer">Click the link to view the high-resolution files ↗</a></div>
+        <div class="gallery-grid">
+          <a class="gallery-card searchable" href="assets/s8-product-photo.webp" target="_blank" rel="noreferrer"><img src="assets/s8-product-photo.webp" alt="S8 product, extension handle, and accessories"><span><b>Power Scrubber S8</b><small>Product and accessories · supplied comparison image</small></span></a>
+          <a class="gallery-card searchable" href="assets/q1-product-photo.webp" target="_blank" rel="noreferrer"><img src="assets/q1-product-photo.webp" alt="Q1 Power Scrubber image"><span><b>Power Scrubber Q1</b><small>Previous model · supplied comparison image</small></span></a>
+          <a class="gallery-card searchable" href="assets/product-box.webp" target="_blank" rel="noreferrer"><img src="assets/product-box.webp" alt="S8 product box artwork"><span><b>S8 packaging artwork</b><small>Rendered from the supplied box PDF</small></span></a>
+          <a class="gallery-card searchable" href="assets/extension-bar.webp" target="_blank" rel="noreferrer"><img src="assets/extension-bar.webp" alt="S8 extension bar packaging artwork"><span><b>Extension bar packaging</b><small>Rendered from the supplied accessory box PDF</small></span></a>
+        </div>
+      </section>
+
+      <section class="view-panel" id="view-controls" data-title="Use & Controls">
+        <div class="spec-strip"><div><small>POWER</small><b>20 W</b></div><div><small>RUNTIME STATED IN MANUAL</small><b>45 min</b></div><div><small>WATER RESISTANCE</small><b>IPX6</b></div><div><small>CHARGING</small><b>USB-C · DC 5 V, 1 A</b></div></div>
+        <div class="control-layout"><div class="control-steps"><h3>Power controls</h3><div class="step-row"><span>1</span><p><b>Power on</b><br>Press and hold Power On/Off for 1 second.</p></div><div class="step-row"><span>2</span><p><b>Switch to high speed</b><br>Press the Power button again after starting at low speed.</p></div><div class="step-row"><span>3</span><p><b>Power off</b><br>Press and hold Power On/Off for 1 second.</p></div><div class="display-note"><b>Digital display</b><p>Shows speed 1 (low) or 2 (high), followed by battery level.</p></div></div>
+          <div class="control-steps"><h3>Adjust the extension bar</h3><div class="step-row"><span>1</span><p><b>Twist</b><br>Twist to unlock.</p></div><div class="step-row"><span>2</span><p><b>Extend</b><br>Pull to extend within the 28–43.3 in range.</p></div><div class="step-row"><span>3</span><p><b>Lock</b><br>Lock the handle at the selected length.</p></div><a class="asset-link" href="assets/extension-bar.webp" target="_blank" rel="noreferrer">View extension bar box artwork ↗</a></div></div>
+        <p class="note">For full care and safety details, consult the printed manual included with the product.</p>
+      </section>
+
+      <section class="view-panel" id="view-comparison" data-title="Old Model vs S8">
+        <div class="comparison-intro"><div><span class="type-label">MODEL COMPARISON</span><h3>Power Scrubber Q1 vs Power Scrubber S8</h3><p>The S8 adds a digital display and extension handle compatibility, with higher stated power and updated button controls.</p></div><img src="assets/s8-product-photo.webp" alt="S8 scrubber product image"></div>
+        <div class="compare-wrap"><table class="compare-table"><thead><tr><th>Basic info / function</th><th>Power Scrubber Q1</th><th>Power Scrubber S8</th></tr></thead><tbody>
+          <tr><th>SKU</th><td>MA-Q1PS4BRUSHES</td><td>MA-S8PS4BRUSHES</td></tr><tr><th>Barcode (same)</th><td>850064546026</td><td>850064546026</td></tr><tr><th>COGS</th><td>$5.84</td><td>$8.01</td></tr>
+          <tr class="changed"><th>Digital display</th><td>No</td><td>Yes</td></tr><tr class="changed"><th>Battery indication</th><td>Indicator 0 flashes while charging; stays on when fully charged</td><td>Battery level shown on the display</td></tr><tr class="changed"><th>Speed indication</th><td>Low: indicator 1; high: indicator 2</td><td>Display shows 1 (low) or 2 (high), then battery level</td></tr>
+          <tr class="changed"><th>Extension handle compatibility</th><td>Not compatible with the S8 extension handle</td><td>Compatible with the S8 extension handle</td></tr><tr class="changed"><th>Extension handle length</th><td>Not applicable</td><td>28–43.3 in (handle only)</td></tr><tr class="changed"><th>Extension handle adjustment</th><td>Not applicable</td><td>Twist to unlock; pull to extend; lock</td></tr><tr class="changed"><th>Power stated in manual (W)</th><td>10</td><td>20</td></tr><tr class="changed"><th>Water resistance rating</th><td>Not stated in supplied comparison</td><td>IPX6</td></tr>
+          <tr><th>Speed settings</th><td>2</td><td>2</td></tr><tr><th>Runtime stated in manual (min.)</th><td>45</td><td>45</td></tr><tr><th>Brush head</th><td>Compatible; interchangeable between Q1 and S8</td><td>Compatible; interchangeable between Q1 and S8</td></tr><tr><th>Cone-shaped brush</th><td>Compatible; interchangeable between Q1 and S8</td><td>Compatible; interchangeable between Q1 and S8</td></tr><tr><th>Large brush head</th><td>Compatible; interchangeable between Q1 and S8</td><td>Compatible; interchangeable between Q1 and S8</td></tr><tr><th>Steel brush head</th><td>Compatible; interchangeable between Q1 and S8</td><td>Compatible; interchangeable between Q1 and S8</td></tr><tr><th>Sponge head kit</th><td>Compatible; interchangeable between Q1 and S8</td><td>Compatible; interchangeable between Q1 and S8</td></tr>
+          <tr><th>Charging port</th><td>USB-C</td><td>USB-C</td></tr><tr><th>Charging input</th><td>DC 5 V, 1 A</td><td>DC 5 V, 1 A</td></tr><tr class="changed"><th>Power on</th><td>Press ON/OFF once to start at low speed</td><td>Press and hold Power On/Off for 1 second</td></tr><tr class="changed"><th>Switch to high speed</th><td>Press ON/OFF a second time</td><td>Press Power button again after starting at low speed</td></tr><tr class="changed"><th>Power off</th><td>Press ON/OFF a third time</td><td>Press and hold Power On/Off for 1 second</td></tr><tr><th>Materials stated in manual</th><td>ABS and PP</td><td>ABS and PP</td></tr>
+        </tbody></table></div>
+        <p class="note">“Not stated in supplied comparison” means the sheet lists no Q1 water resistance value. COGS values are retained from the internal comparison sheet.</p>
+        <details class="original-sheet"><summary>View enhanced original comparison image</summary><a href="assets/comparison-enhanced.webp" target="_blank" rel="noreferrer"><img src="assets/comparison-enhanced.webp" alt="Enhanced source comparison image"></a></details>
+      </section>
+
+      <section class="view-panel" id="view-manuals" data-title="Manuals & Resources">
+        <div class="resources-list">
+          <article class="resource searchable"><div class="resource-heading"><div><small>PRODUCT MANUAL · SIDE 1</small><h3>Brush heads & accessories</h3><p>Illustrated product and accessory panels.</p></div><div class="resource-actions"><a href="assets/manual-side-1.webp" target="_blank" rel="noreferrer">Open preview ↗</a><a href="https://drive.google.com/file/d/13Mo1WvH5jqlmi0-RzEKD2yqFJ6BdV4ul/view?usp=sharing" target="_blank" rel="noopener noreferrer">High-resolution file ↗</a></div></div><a href="assets/manual-side-1.webp" target="_blank" rel="noreferrer"><img src="assets/manual-side-1.webp" alt="S8 manual side 1"></a></article>
+          <article class="resource searchable"><div class="resource-heading"><div><small>PRODUCT MANUAL · SIDE 2</small><h3>Setup, operation & care</h3><p>Open the enlarged page to read the printed instructions and diagrams.</p></div><div class="resource-actions"><a href="assets/manual-side-2.webp" target="_blank" rel="noreferrer">Open preview ↗</a><a href="https://drive.google.com/file/d/1kwCfIyiwI47xzxbCb-fS2t4k1r9l8Ktl/view?usp=sharing" target="_blank" rel="noopener noreferrer">High-resolution file ↗</a></div></div><a href="assets/manual-side-2.webp" target="_blank" rel="noreferrer"><img src="assets/manual-side-2.webp" alt="S8 manual side 2"></a></article>
+          <div class="resource-links"><a href="assets/product-box.webp" target="_blank" rel="noreferrer">S8 product box artwork ↗</a><a href="assets/extension-bar.webp" target="_blank" rel="noreferrer">Extension bar box artwork ↗</a></div>
+          <div class="support-line"><span>SUPPORT INFORMATION SHOWN ON EXTENSION BAR BOX</span><p><a href="mailto:support@x-all.com">support@x-all.com</a> · <a href="tel:+18333157237">1-833-315-7237</a></p></div>
+        </div>
+      </section>
+    </section>
+    <footer><span>X-All Power Scrubber · Q1 vs S8</span><span>Working draft based on supplied product materials</span></footer>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>
